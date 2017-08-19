@@ -22,3 +22,7 @@ Settings of Big Brother GPS:
 
 Instalation of web part to the server:
 * just copy PHP/DB/PNG files to the some directory of the webserver (with PHP)
+
+---
+Demo: 
+http://vitek.fedra.cz/multitracker-demo/
