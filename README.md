@@ -16,7 +16,6 @@ Settings of Big Brother GPS:
 * Use HTTP response for notif.: ☑
 
  Tips for maps usage:
-* v mobilu je možno při kliknutí na jméno pilota rovnou spustit navigaci (např. v aplikaci mapy.cz)
 * on the mobile phone tap on the pilot name and let the phone open the position in navigation app
 * all yesterday tracklogs are deleted by first today record
 
