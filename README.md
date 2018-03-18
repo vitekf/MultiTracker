@@ -2,9 +2,9 @@
 Simple online tracking system for multiple users, optimized for paragliding pilots with Android phones
 ---
 
-Android phone apps for sending coordinates (open source apps): 
-Big Brother GPS - https://play.google.com/store/apps/details?id=org.gnarf.bigbrother.gps
-GPSLogger - https://play.google.com/store/apps/details?id=com.mendhak.gpslogger
+Android phone apps for sending coordinates (open source apps):<br>
+<strong>Big Brother GPS</strong> - https://play.google.com/store/apps/details?id=org.gnarf.bigbrother.gps<br>
+<strong>GPSLogger</strong> - https://play.google.com/store/apps/details?id=com.mendhak.gpslogger
 
 Settings of Big Brother GPS:
 (menu -> settings):
