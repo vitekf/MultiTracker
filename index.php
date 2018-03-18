@@ -13,13 +13,17 @@ if ($_SERVER["QUERY_STRING"] == "last"){
   exit;
   }
 
-//this part receive data from POST and send them to the database
-if ($_SERVER['REQUEST_METHOD']=='POST'){
+//this part receive data from GET/POST and send them to the database
+if (isset($_GET[latitude]) OR isset($_POST[latitude])){
 
-  $lat = str_replace(',', '.', $_POST["latitude"]);
-  $lon = str_replace(',', '.', $_POST["longitude"]);
-  $alt = $_POST["altitude"];
-  $name = preg_replace("/\W+/", "_", $_POST["secret"]); 
+  $lat = isset($_GET[latitude]) ? $_GET[latitude] : (isset($_POST[latitude]) ? $_POST[latitude] : null);
+  $lon = isset($_GET[longitude]) ? $_GET[longitude] : (isset($_POST[longitude]) ? $_POST[longitude] : null);
+  $alt = isset($_GET[altitude]) ? $_GET[altitude] : (isset($_POST[altitude]) ? $_POST[altitude] : null);
+  $name = isset($_GET[secret]) ? $_GET[secret] : (isset($_POST[secret]) ? $_POST[secret] : null);
+  
+  $lat = str_replace(',', '.', $lat);
+  $lon = str_replace(',', '.', $lon);
+  $name = preg_replace("/\W+/", "_", $name); 
   $time = time();
   
   //check of data validity       
