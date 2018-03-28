@@ -3,7 +3,7 @@ Simple online tracking system for multiple users, optimized for paragliding pilo
 ---
 
 Android phone apps for sending coordinates (open source apps):<br>
-<strong>GPSLogger</strong> - https://play.google.com/store/apps/details?id=com.mendhak.gpslogger
+<strong>GPSLogger</strong> - https://play.google.com/store/apps/details?id=com.mendhak.gpslogger<br>
 (bit complicated settings, no problem with Doze mode on Android 6+)
 
 <strong>Big Brother GPS</strong> - https://play.google.com/store/apps/details?id=org.gnarf.bigbrother.gps<br>
