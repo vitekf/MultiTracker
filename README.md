@@ -4,7 +4,7 @@ Simple online tracking system for multiple users, optimized for paragliding pilo
 
 Android phone apps for sending coordinates (open source apps):
 
-<strong>GPSLogger</strong> - https://play.google.com/store/apps/details?id=com.mendhak.gpslogger<br>
+<strong>GPSLogger</strong> - https://gpslogger.app/<br>
 (bit complicated settings, no problem with Doze mode on Android 6+)
 
 Settings of GPSLogger: <br>
@@ -23,18 +23,7 @@ Menu -> Performance:<br>
 * Location providers: only GPS
 * Logging interval: 180
 
-<strong>Big Brother GPS</strong> - https://play.google.com/store/apps/details?id=org.gnarf.bigbrother.gps<br>
-(easy settings, sometimes does not work in background on Android 6+)
 
-Settings of Big Brother GPS:<br>
-(menu -> settings):
-* Update interval (minutes): 3
-* Use GPS: ☑
-* URL: http://your_server.ltd/multitracker/ (slash on the end is necessary!)
-* Secret: Your_Name (you will see it on the map)
-* Send altitude: ☑
-* (other items do not matter)
-* Use HTTP response for notif.: ☑
 ---
 
  Tips for maps usage:
@@ -46,4 +35,4 @@ Instalation of web part to the server:
 
 ---
 Demo: 
-http://vitek.fedra.cz/multitracker-demo/
+
