@@ -16,10 +16,10 @@ if ($_SERVER["QUERY_STRING"] == "last"){
 //this part receive data from GET/POST and send them to the database
 if (isset($_GET['latitude']) OR isset($_POST['latitude'])){
 
-  $lat = isset($_GET['latitude']) ? $_GET['latitude'] : (isset($_POST['latitude']) ? $_POST['latitude'] : null);
-  $lon = isset($_GET['longitude']) ? $_GET['longitude'] : (isset($_POST['longitude']) ? $_POST['longitude'] : null);
-  $alt = isset($_GET['altitude']) ? $_GET['altitude'] : (isset($_POST['altitude']) ? $_POST['altitude'] : null);
-  $name = isset($_GET['secret']) ? $_GET['secret'] : (isset($_POST['secret']) ? $_POST['secret'] : null);
+  $lat = isset($_GET["latitude"]) ? $_GET["latitude"] : (isset($_POST["latitude"]) ? $_POST["latitude"] : null);
+  $lon = isset($_GET["longitude"]) ? $_GET["longitude"] : (isset($_POST["longitude"]) ? $_POST["longitude"] : null);
+  $alt = isset($_GET["altitude"]) ? $_GET["altitude"] : (isset($_POST["altitude"]) ? $_POST["altitude"] : null);
+  $name = isset($_GET["secret"]) ? $_GET["secret"] : (isset($_POST["secret"]) ? $_POST["secret"] : null);
   
   $lat = str_replace(',', '.', $lat);
   $lon = str_replace(',', '.', $lon);
