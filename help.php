@@ -8,23 +8,10 @@
   </style>  
 	<body>
 		<p>
-			<strong>Aplikace do Androidu - varianta 1:</strong> <br>
-      <a href="https://play.google.com/store/apps/details?id=org.gnarf.bigbrother.gps">Big Brother GPS</a> (open source app)</p>
-		<p>
-			<strong>Nastavení Big Brother GPS:</strong><br /> 
-      (menu -&gt; settings):<br />
-			* Update interval (minutes): 3<br />
-			* Use GPS: ☑<br />
-			* URL: http://vitek.fedra.cz/multitracker-demo/ (lomítko na konci je nutné!)<br />
-			* Secret: Jmeno (bude se zobrazovat v mapě)<br />
-			* Send altitude: ☑ <br />
-			* (na dalších volbách nezaleží)<br />
-			* Use HTTP response for notif.: ☑
-	  </p>
-		<hr>
-		<p>
-			<strong>Aplikace do Androidu - varianta 2:</strong> <br>
-      <a href="https://play.google.com/store/apps/details?id=com.mendhak.gpslogger">GPSLogger</a> (open source app)</p>
+			<strong>Aplikace do Androidu:</strong> <br>
+      <a href="https://github.com/mendhak/gpslogger/releases">GPSLogger</a><br>
+      <!--(open source - www.gpslogger.app)<br>-->
+       rozklikni "Assets", vyber "gpslogger-xyz.apk" (open source app - www.gpslogger.app)</p>
 		<p>
 			<strong>Nastavení GPSLogger:</strong><br /> 
       Menu -&gt; Obecné možnosti:<br />
@@ -32,7 +19,7 @@
       Menu -&gt; Podrobnosti záznamu:<br />
 			* vše vpnout, zapnout jen "Vlastní URL"<br />
 			Vlastní URL:<br />
-      * URL: http://vitek.fedra.cz/multitracker-demo/?latitude=%LAT&longitude=%LON&altitude=%ALT&secret=MojeJmeno<br />
+      * URL: http://tracker.fedra.cz/?latitude=%LAT&longitude=%LON&altitude=%ALT&secret=MojeJmeno<br />
 			* (na dalších volbách nezaleží)<br />
 			Menu -&gt; Výkon:<br />
       * Zjišťování polohy: pouze GPS<br />
@@ -42,7 +29,7 @@
     <p>
     <strong>Tipy k mapě:</strong><br />
     * v mobilu je možno při kliknutí na jméno pilota rovnou spustit navigaci (např. v aplikaci mapy.cz)<br /> 
-    * všechny včerejší tracklogy  se mažou s prvním dnešním záznamem
+    * všechny včerejší tracklogy se mažou s prvním záznamem nového dne
     </p>
     
     <p>
@@ -50,7 +37,6 @@
 			* Xiaomi: nastavení baterie - vypnout úsporu, povolit aplikace na pozadí, případně  poladit <a href="https://www.youtube.com/watch?v=kinYsvd58NM">developer options</a><br />
 			* Huawei: settings - advantage setting - battery manager: zmenit ze smart na performance<br />
 			* Huawei: settings - app - big brother - buttery: keep running after screen off<br />
-			* V nastavení Big Brother GPS zkus zapnout: Continous operation ☑ <br />
 			* inspiruj se, jak to řeší <a href="https://support.endomondo.com/hc/en-us/articles/115000384453-Android-Disabling-App-Optimization">jinde</a>
     </p>
     <hr>
