@@ -90,7 +90,7 @@ if (isset($_GET['latitude']) OR isset($_POST['latitude'])){
         }
     </style>
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCpzpM3LpEJBrrzhB2sGC6CploKOP6Q8WY"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=GOOGLEAPIKEY"></script>
 <script>
 function initialize() {
   //initial map settings
