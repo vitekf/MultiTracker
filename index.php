@@ -27,7 +27,7 @@ if (isset($_GET['latitude']) OR isset($_POST['latitude'])){
   $time = time();
   
   //check of data validity       
-  if (($lat > 0) && ($lon > 0) && ($alt > 0)){
+  if (($lat > -180) && ($lon > -180) && ($alt > -100)){
   
     //deleting all database records, if there is any yesterday record
     $beginOfDay = strtotime("midnight", time());
